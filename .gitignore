@@ -17,8 +17,6 @@ go.work.sum
 vendor/
 
 # Environment and secrets
-.env
-.env.local
 .env.*.local
 *.pem
 *.key
@@ -26,7 +24,6 @@ vendor/
 
 # IDE and editors
 .idea/
-.vscode/
 *.swp
 *.swo
 *~
@@ -72,3 +69,9 @@ tmp/
 config.local.*
 *.local.yaml
 *.local.yml
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+config.bat
+node_modules
